@@ -1,6 +1,6 @@
 import { useDraggable } from "@dnd-kit/core";
 
-export default function Draggable({ id, content }) {
+export default function Card({ id, content }) {
   const { attributes, listeners, setNodeRef, transform, isDragging } = useDraggable({
     id,
   });
